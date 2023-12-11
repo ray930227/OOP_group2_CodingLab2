@@ -86,6 +86,25 @@ add_executable(ut_all
     ${SRC_FILES}
     ${INCLUDE_FILES}
     ${TEST_FILES}
+        include/ISmeltable.hpp
+        include/CoalOre.hpp
+        src/CoalOre.cpp
+        include/IronOre.hpp
+        src/IronOre.cpp
+        include/CopperOre.hpp
+        src/CopperOre.cpp
+        include/LapisLazuliOre.hpp
+        src/LapisLazuliOre.cpp
+        include/GoldOre.hpp
+        src/GoldOre.cpp
+        include/RedstoneOre.hpp
+        src/RedstoneOre.cpp
+        include/DiamondOre.hpp
+        src/DiamondOre.cpp
+        include/EmeraldOre.hpp
+        src/EmeraldOre.cpp
+        include/RawBeef.hpp
+        src/RawBeef.cpp
 )
 target_link_libraries(ut_all
     GTest::gtest_main
